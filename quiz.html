@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="/assets/icon.png" alt="Ícone do App" class="icon" />
+    <h2 id="question" class="question">Carregando pergunta...</h2>
+    <div class="options">
+      <button id="btn1" class="option" onclick="checkAnswer(1)"></button>
+      <button id="btn2" class="option" onclick="checkAnswer(2)"></button>
+      <button id="btn3" class="option" onclick="checkAnswer(3)"></button>
+      <button id="btn4" class="option" onclick="checkAnswer(4)"></button>
+    </div>
+    <button id="playAgain" class="play-again" onclick="playAgain()">Jogar Novamente</button>
+    <footer class="footer-bar">
+     <button onclick="window.location.href='index.html'">Voltar para o Início</button>
+     <button onclick="window.location.href='data-mining.html'">Data Mining</button>
+     <button onclick="window.location.href='analise.html'">Análise de Dados</button>
+     <button onclick="window.location.href='gd.html'">Gestão de Dados</button>
+   </footer>
+  </div>
+
+
+  <script src="quiz.js"></script>
+</body>
+</html>
