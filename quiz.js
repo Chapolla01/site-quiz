@@ -14,7 +14,7 @@ async function loadQuestions() {
 
 function displayQuestion() {
   const q = questions[currentQuestion];
-  document.getElementById("question").innerText = q[0];
+  document.getElementById("questions").innerText = q[0];
   document.getElementById("btn1").innerText = q[1];
   document.getElementById("btn2").innerText = q[2];
   document.getElementById("btn3").innerText = q[3];
