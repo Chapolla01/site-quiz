@@ -97,6 +97,7 @@
   }
    */
 
+
 *{
 margin: 0;
 padding: 0;
@@ -214,3 +215,23 @@ footer4 button:hover {
   text-decoration: underline;
 }
 
+main {
+  border: 2px solid #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+main section {
+  border: 2px dashed #4b51a5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+main section h2 {
+  border-bottom: 2px solid #d9ec6e;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
