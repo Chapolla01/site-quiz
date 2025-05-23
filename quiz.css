@@ -171,16 +171,16 @@ footer {
 }
 
 footer {
-  position: fixed;
+  position: center;
   bottom: 0;
   width: 100%;
   padding: 10px;
   background-color: #1e1e1e;
-  text-align: left;
+  text-align: center;
 }
 
 footer button {
-  padding: 10px 20px;
+  padding: 20px 30px;
   margin: 5px;
   background-color: #10a37f;
   color: #f0f0f0;
